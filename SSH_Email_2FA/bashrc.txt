@@ -1,0 +1,8 @@
+if [[ -n $SSH_CONNECTION ]] ; then
+    python3.7 <path_to_script>/email_2fa.py
+    RC=$?
+    while [ $RC == 1 ] ; do
+        python3.7 <path_to_script>/email_2fa.py
+        RC=$?
+    done
+fi
