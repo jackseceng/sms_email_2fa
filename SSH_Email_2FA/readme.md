@@ -11,7 +11,7 @@
 
 3. Append the contents of the bashrc.txt file to ~/.bashrc, like this:
 
-> 'cat bashrc.txt >> ~/.bashrc'.
+* > 'cat bashrc.txt >> ~/.bashrc'.
 
 ## Troubleshooting:
 
